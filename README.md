@@ -1,3 +1,3 @@
 # Review Analyzer
 
-A lightweight application for analyzing product reviews.
+A lightweight Python application for classifying product reviews and customer feedback.
