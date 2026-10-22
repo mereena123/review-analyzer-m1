@@ -13,6 +13,10 @@ def test_review_without_keyword_is_unknown():
     assert classify_review("Delivered yesterday") == "unknown"
 
 
+def test_bad_review_is_negative():
+    assert classify_review("  Really BAD packaging ") == "negative"
+
+
 if __name__ == "__main__":
     tests = [v for k, v in dict(globals()).items() if k.startswith("test_")]
     for t in tests:
