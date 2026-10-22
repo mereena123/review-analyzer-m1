@@ -1,3 +1,3 @@
 # Review Analyzer
 
-A command-line helper that labels short customer reviews using sentiment keywords.
+A small Python tool for classifying customer feedback.
